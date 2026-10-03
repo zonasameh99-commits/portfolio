@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Mazen Sameh — Web Developer</title>
+<meta name="description" content="Mazen Sameh is a Web Developer building modern, responsive, and interactive web experiences.">
+<meta name="theme-color" content="#09090b">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Mazen Sameh — Web Developer">
+<meta property="og:description" content="Mazen Sameh is a Web Developer building modern, responsive, and interactive web experiences.">
+<meta name="twitter:card" content="summary">
+<link rel="icon" href="assets/icons/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/responsive.css">
+<script>document.documentElement.classList.add('js')</script>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<div class="bg" aria-hidden="true"></div>
+<div class="cursor-dot" aria-hidden="true"></div><div class="cursor-ring" aria-hidden="true"></div>
+
+<header class="nav" id="nav">
+  <div class="wrap nav-in">
+    <a href="#home" class="logo" aria-label="Mazen Sameh, home">ms<span>.</span></a>
+    <button class="burger" id="burger" aria-expanded="false" aria-controls="menu" aria-label="Open menu"><i></i><i></i></button>
+    <nav id="menu" aria-label="Primary">
+      <ul>
+        <li><a href="#home" data-mag>Home</a></li>
+        <li><a href="#about" data-mag>About</a></li>
+        <li><a href="#skills" data-mag>Skills</a></li>
+        <li><a href="#projects" data-mag>Projects</a></li>
+        <li><a href="#journey" data-mag>Journey</a></li>
+        <li><a href="#contact" data-mag>Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+<section class="hero" id="home">
+  <div class="wrap hero-in">
+    <div class="hero-copy">
+      <h1 class="name"><span class="ln"><span>MAZEN</span></span><span class="ln"><span>SAMEH</span></span></h1>
+      <p class="role">Web Developer</p>
+      <p class="lead">I build modern, responsive, and interactive web experiences with a strong focus on design, usability, and detail.</p>
+      <div class="cta">
+        <a class="btn primary" href="#projects" data-mag>View Projects</a>
+        <a class="btn ghost" href="#contact" data-mag>Contact Me</a>
+      </div>
+    </div>
+    <div class="term" role="img" aria-label="Terminal panel: building digital experiences, writing clean interfaces, creating interactive web projects. Status: available for projects.">
+      <div class="term-bar"><i></i><i></i><i></i><span>mazen@portfolio</span></div>
+      <pre class="term-body" id="term" aria-hidden="true"></pre>
+      <div class="term-status" aria-hidden="true"><span class="dot"></span> Available for projects</div>
+    </div>
+  </div>
+  <a href="#about" class="scroll" aria-label="Scroll to About">scroll</a>
+</section>
+
+<section class="sec" id="about">
+  <div class="wrap about">
+    <h2 class="reveal">A little about me</h2>
+    <div class="about-copy reveal">
+      <p>I'm Mazen, a Web Developer who enjoys turning ideas into websites that feel good to use. I work with HTML, CSS, and JavaScript, and I care about the small things: spacing, motion, and how an interface responds when you touch it.</p>
+      <p>I'm interested in clean UI, responsive layouts, and interactive experiences that run right in the browser. I learn by building, and most of what I know came from trying something new and refining it.</p>
+      <ul class="focus">
+        <li>Clean UI</li><li>Responsive design</li><li>User experience</li><li>Interactive interfaces</li><li>Modern web technologies</li><li>Learning and experimentation</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section class="sec" id="skills">
+  <div class="wrap">
+    <h2 class="reveal">Skills</h2>
+    <div class="core">
+      <article class="skill reveal" tabindex="0"><span class="ic">&lt;/&gt;</span><h3>HTML</h3><p>Semantic, accessible structure.</p></article>
+      <article class="skill reveal" tabindex="0"><span class="ic">{ }</span><h3>CSS</h3><p>Layout, motion, and detail.</p></article>
+      <article class="skill reveal" tabindex="0"><span class="ic">JS</span><h3>JavaScript</h3><p>Interaction without the bloat.</p></article>
+    </div>
+    <ul class="caps">
+      <li class="reveal" tabindex="0"><span class="ic">⇔</span>Responsive Design</li>
+      <li class="reveal" tabindex="0"><span class="ic">▣</span>UI Development</li>
+      <li class="reveal" tabindex="0"><span class="ic">◉</span>Interactive Web Design</li>
+      <li class="reveal" tabindex="0"><span class="ic">◧</span>Frontend Development</li>
+      <li class="reveal" tabindex="0"><span class="ic">▤</span>Browser-based Applications</li>
+      <li class="reveal" tabindex="0"><span class="ic">⑂</span>Git / GitHub</li>
+    </ul>
+  </div>
+</section>
+
+<section class="sec" id="projects">
+  <div class="wrap">
+    <h2 class="reveal">Selected Projects</h2>
+    <article class="feature reveal" id="feature" aria-labelledby="f-title"></article>
+    <div class="filters" role="group" aria-label="Filter projects" id="filters"></div>
+    <p class="count" id="count" aria-live="polite"></p>
+    <div class="grid" id="grid"></div>
+  </div>
+</section>
+
+<section class="sec" id="journey">
+  <div class="wrap">
+    <h2 class="reveal">My Journey</h2>
+    <ol class="timeline">
+      <li class="reveal"><h3>Learning web development</h3><p>Started with HTML and CSS, then added JavaScript to make pages respond.</p></li>
+      <li class="reveal"><h3>Building projects</h3><p>Turned tutorials into original builds, from small tools to full browser apps.</p></li>
+      <li class="reveal"><h3>Experimenting with new technologies</h3><p>Trying new browser features and techniques, then keeping what earns its place.</p></li>
+      <li class="reveal"><h3>Improving design and frontend skills</h3><p>Refining typography, layout, motion, and performance with each project.</p></li>
+    </ol>
+  </div>
+</section>
+
+<section class="sec" id="github">
+  <div class="wrap">
+    <h2 class="reveal">Building in public</h2>
+    <div class="gh-head reveal">
+      <p id="gh-note">Repositories appear here once a GitHub username is set in <code>js/main.js</code>.</p>
+      <a class="btn ghost" id="gh-profile" href="https://github.com/zonasameh99-commits" data-mag>GitHub Profile</a>
+    </div>
+    <div class="repos" id="repos"></div>
+    <div class="graph" id="graph" hidden><img id="graph-img" alt="GitHub contribution graph" loading="lazy" width="720" height="110"></div>
+  </div>
+</section>
+
+<section class="sec contact" id="contact">
+  <div class="wrap">
+    <h2 class="big reveal">Let's build something.</h2>
+    <p class="reveal">Have an idea, project, or collaboration in mind? Let's turn it into something real.</p>
+    <div class="cta reveal">
+      <a class="btn primary" href="mailto:zonasameh99@gmail.com" data-mag>Email Me</a>
+      <a class="btn ghost" href="https://github.com/zonasameh99-commits" data-mag>GitHub</a>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer class="foot"><div class="wrap"><span>© <span id="year">2026</span> Mazen Sameh</span><a href="#home">Back to top</a></div></footer>
+
+<script src="js/projects.js"></script>
+<script src="js/animations.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
